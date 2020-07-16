@@ -7,7 +7,7 @@ module.exports = {
   organizationName: 'Ohio Supercomputer Center',
   projectName: 'ondemand',
   themeConfig: {
-    defaultDarkMode: true,
+    defaultDarkMode: false,
     /*
     announcementBar: {
       id: 'support_us',
@@ -114,11 +114,11 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'introduction',
+          homePageId: 'welcome',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/OSC/ood-documentation/edit/master/',
         },
         blog: {
           showReadingTime: false,

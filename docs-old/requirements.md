@@ -1,24 +1,21 @@
 ---
-id: requirements
+id: installation-requirements
 title: Requirements
 sidebar_label: Requirements
 ---
-Software Requirements
----------------------
 
-On the Web node serving OnDemand itself:
--   [Software Collections
-    repositories](https://www.softwarecollections.org/en/)
--   [lsof](https://en.wikipedia.org/wiki/Lsof)
--   [sudo](https://www.sudo.ws/)
--   
-    [OnDemand repository](https://openondemand.org/):
-    :   -   ondemand-{{ondemand\_version}}-1.el7.x86\_64.rpm
+## Software Requirements
+### Web nodes
 
-And on the Compute node(s):
+- [Software Collections repositories](https://www.softwarecollections.org/en/)
+- [lsof](https://en.wikipedia.org/wiki/Lsof)
+- [sudo](https://www.sudo.ws/)
+- [OnDemand repository](https://openondemand.org/): 
+    - ondemand-{{ondemand\_version}}-1.el7.x86\_64.rpm
+
+### Compute nodes
 
 :::info Note
-
 The following are required for using OnDemand with interactive
 applications such as desktop environments, Jupyter Notebooks and
 RStudio. If you do not intend to install interactive applications then

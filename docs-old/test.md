@@ -1,7 +1,7 @@
 ---
 id: test
-title: test
+title: Test
 sidebar_label: Test
 ---
-# Test
-Hey
+
+Used for testing
